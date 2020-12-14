@@ -1,5 +1,5 @@
-query Posts($limit: Int!, $cursor: String) {
-	posts(limit: $limit, cursor: $cursor) {
+query Posts($page: Int!) {
+	posts(page: $page) {
 		id
 		createdAt
 		updatedAt
